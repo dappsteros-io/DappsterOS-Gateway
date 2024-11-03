@@ -63,11 +63,11 @@ __get_download_domain(){
     if [ "${region}" = "" ]; then
        region=$(curl --connect-timeout 2 -s https://ifconfig.io/country_code || echo "")
     fi
-    if [[ "${region}" = "China" ]] || [[ "${region}" = "CN" ]]; then
-        echo "https://casaos.oss-cn-shanghai.aliyuncs.com/"
-    else
-        echo "https://github.com/"
-    fi
+    # if [[ "${region}" = "China" ]] || [[ "${region}" = "CN" ]]; then
+    #     echo "https://casaos.oss-cn-shanghai.aliyuncs.com/"
+    # else
+    #     echo "https://github.com/"
+    # fi
 }
 
 DOWNLOAD_DOMAIN=$(__get_download_domain)
@@ -80,7 +80,7 @@ readonly SOURCE_ROOT=${BUILD_PATH}/sysroot
 readonly APP_NAME="DappsterOS-Gateway"
 readonly APP_NAME_FORMAL="DappsterOS-Gateway"
 readonly APP_NAME_SHORT="gateway"
-readonly APP_NAME_LEGACY="casaos"
+readonly APP_NAME_LEGACY="dappsteros"
 
 # check if migration is needed
 readonly SOURCE_BIN_PATH=${SOURCE_ROOT}/usr/bin

@@ -1,5 +1,0 @@
-[common]
-runtimepath=/var/run/dappsteros
-
-[gateway]
-port=

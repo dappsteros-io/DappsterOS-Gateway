@@ -10,7 +10,7 @@ readonly CASA_SERVICE_PATH
 
 CASA_CONF=$( grep -i ConditionFileNotEmpty "${CASA_SERVICE_PATH}" | cut -d'=' -sf2)
 if [[ -z "${CASA_CONF}" ]]; then
-    CASA_CONF=/etc/casaos/gateway.ini
+    CASA_CONF=/etc/dappsteros/gateway.ini
 fi
 
 readonly aCOLOUR=(
