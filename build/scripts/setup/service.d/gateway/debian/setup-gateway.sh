@@ -3,7 +3,7 @@
 set -e
 
 ## base variables
-readonly APP_NAME="DappsterOS-Gateway"
+readonly APP_NAME="dappsteros-gateway"
 readonly APP_NAME_SHORT="gateway"
 
 # copy config files
