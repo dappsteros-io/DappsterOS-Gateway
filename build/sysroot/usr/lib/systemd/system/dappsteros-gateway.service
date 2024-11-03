@@ -1,0 +1,13 @@
+[Unit]
+After=network.target
+Description=DappsterOS Gateway
+
+[Service]
+ExecStartPre=/usr/bin/dappsteros-gateway -v
+ExecStart=/usr/bin/dappsteros-gateway
+PIDFile=/var/run/dappsteros/gateway.pid
+Restart=always
+Type=notify
+
+[Install]
+WantedBy=multi-user.target

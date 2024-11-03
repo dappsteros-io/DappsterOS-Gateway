@@ -3,7 +3,7 @@
 set -e
 
 readonly CASA_EXEC=DappsterOS-Gateway
-readonly CASA_SERVICE=DappsterOS-Gateway.service
+readonly CASA_SERVICE=dappsteros-gateway.service
 
 CASA_SERVICE_PATH=$(systemctl show ${CASA_SERVICE} --no-pager  --property FragmentPath | cut -d'=' -sf2)
 readonly CASA_SERVICE_PATH
@@ -58,8 +58,8 @@ systemctl disable --now "${CASA_SERVICE}" || Show 3 "Failed to disable ${CASA_SE
 rm -rvf "$(which ${CASA_EXEC})" || Show 3 "Failed to remove ${CASA_EXEC}"
 rm -rvf "${CASA_CONF}" || Show 3 "Failed to remove ${CASA_CONF}"
 
-rm -rvf /var/run/casaos/gateway.pid
-rm -rvf /var/run/casaos/management.url
-rm -rvf /var/run/casaos/routes.json
-rm -rvf /var/run/casaos/static.url
-rm -rvf /var/lib/casaos/www
+rm -rvf /var/run/dappsteros/gateway.pid
+rm -rvf /var/run/dappsteros/management.url
+rm -rvf /var/run/dappsteros/routes.json
+rm -rvf /var/run/dappsteros/static.url
+rm -rvf /var/lib/dappsteros/www

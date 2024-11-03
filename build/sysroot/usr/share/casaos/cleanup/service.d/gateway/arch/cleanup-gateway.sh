@@ -3,7 +3,7 @@
 set -e
 
 readonly CASA_EXEC=DappsterOS-Gateway
-readonly CASA_SERVICE=DappsterOS-Gateway.service
+readonly CASA_SERVICE=dappsteros-gateway.service
 
 CASA_SERVICE_PATH=$(systemctl show ${CASA_SERVICE} --no-pager  --property FragmentPath | cut -d'=' -sf2)
 readonly CASA_SERVICE_PATH
