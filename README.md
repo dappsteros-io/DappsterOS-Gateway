@@ -2,7 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/dappster-io/DappsterOS-Gateway.svg)](https://pkg.go.dev/github.com/dappster-io/DappsterOS-Gateway) [![Go Report Card](https://goreportcard.com/badge/github.com/dappster-io/DappsterOS-Gateway)](https://goreportcard.com/report/github.com/dappster-io/DappsterOS-Gateway) [![goreleaser](https://github.com/dappster-io/DappsterOS-Gateway/actions/workflows/release.yml/badge.svg)](https://github.com/dappster-io/DappsterOS-Gateway/actions/workflows/release.yml) [![codecov](https://codecov.io/gh/dappster-io/DappsterOS-Gateway/branch/main/graph/badge.svg?token=5JIHXF1RJ4)](https://codecov.io/gh/dappster-io/DappsterOS-Gateway)
 
-CasaOS Gateway is a dynamic API gateway service that can be used to expose APIs from different other HTTP based services.
+DappsterOS Gateway is a dynamic API gateway service that can be used to expose APIs from different other HTTP based services.
 
 This gateway service comes with a simple management API for other services to register their APIs by route paths. A HTTP request arrived at gateway port will be forwarded to the service that is registered for the route path.
 
@@ -15,21 +15,21 @@ Upon launching, it will search for `gateway.ini` file in the following order:
 ```bash
 ./gateway.ini
 ./conf/gateway.ini
-$HOME/.casaos/gateway.ini
-/etc/casaos/gateway.ini
+$HOME/.dappsteros/gateway.ini
+/etc/dappsteros/gateway.ini
 ```
 
-See [gateway.ini.sample](./build/etc/casaos/gateway.ini.sample) for default configuration.
+See [gateway.ini.sample](./build/etc/dappsteros/gateway.ini.sample) for default configuration.
 
 ## Running
 
 Once running, gateway address and management address will be available in the files under `RuntimePath`  specified in configuration.
 
 ```bash
-$ cat /var/run/casaos/gateway.url 
+$ cat /var/run/dappsteros/gateway.url 
 [::]:8080 # port is specified in configuration
 
-$ cat /var/run/casaos/management.url 
+$ cat /var/run/dappsteros/management.url 
 [::]:34703 # port is randomly assigned
 ```
 

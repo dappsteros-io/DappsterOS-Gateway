@@ -16,7 +16,7 @@ const (
 	gatewayServiceNameShort = "gateway"
 )
 
-//go:embedded ../../build/sysroot/etc/casaos/gateway.ini.sample
+//go:embedded ../../build/sysroot/etc/dappsteros/gateway.ini.sample
 //var _gatewayINISample string
 
 var (

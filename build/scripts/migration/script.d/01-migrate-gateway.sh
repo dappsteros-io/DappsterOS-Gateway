@@ -64,7 +64,7 @@ __get_download_domain(){
        region=$(curl --connect-timeout 2 -s https://ifconfig.io/country_code || echo "")
     fi
     # if [[ "${region}" = "China" ]] || [[ "${region}" = "CN" ]]; then
-    #     echo "https://casaos.oss-cn-shanghai.aliyuncs.com/"
+    #     echo "https://dappsteros.oss-cn-shanghai.aliyuncs.com/"
     # else
     #     echo "https://github.com/"
     # fi
