@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.22.2
 
 require (
-	github.com/dappster-io/DappsterOS-Common v0.4.9-alpha11
+	github.com/dappster-io/DappsterOS-Common v0.4.9-alpha12
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/spf13/viper v1.18.2
 	go.uber.org/fx v1.20.1
