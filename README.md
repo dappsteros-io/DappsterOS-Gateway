@@ -1,6 +1,6 @@
 # DappsterOS-Gateway
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/dappster-io/DappsterOS-Gateway.svg)](https://pkg.go.dev/github.com/dappster-io/DappsterOS-Gateway) [![Go Report Card](https://goreportcard.com/badge/github.com/dappster-io/DappsterOS-Gateway)](https://goreportcard.com/report/github.com/dappster-io/DappsterOS-Gateway) [![goreleaser](https://github.com/dappster-io/DappsterOS-Gateway/actions/workflows/release.yml/badge.svg)](https://github.com/dappster-io/DappsterOS-Gateway/actions/workflows/release.yml) [![codecov](https://codecov.io/gh/dappster-io/DappsterOS-Gateway/branch/main/graph/badge.svg?token=5JIHXF1RJ4)](https://codecov.io/gh/dappster-io/DappsterOS-Gateway)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dappsteros-io/DappsterOS-Gateway.svg)](https://pkg.go.dev/github.com/dappsteros-io/DappsterOS-Gateway) [![Go Report Card](https://goreportcard.com/badge/github.com/dappsteros-io/DappsterOS-Gateway)](https://goreportcard.com/report/github.com/dappsteros-io/DappsterOS-Gateway) [![goreleaser](https://github.com/dappsteros-io/DappsterOS-Gateway/actions/workflows/release.yml/badge.svg)](https://github.com/dappsteros-io/DappsterOS-Gateway/actions/workflows/release.yml) [![codecov](https://codecov.io/gh/dappsteros-io/DappsterOS-Gateway/branch/main/graph/badge.svg?token=5JIHXF1RJ4)](https://codecov.io/gh/dappsteros-io/DappsterOS-Gateway)
 
 DappsterOS Gateway is a dynamic API gateway service that can be used to expose APIs from different other HTTP based services.
 

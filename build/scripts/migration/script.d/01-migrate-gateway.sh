@@ -177,7 +177,7 @@ pushd "${MIGRATION_SERVICE_DIR}"
             continue
         fi
 
-        MIGRATION_TOOL_URL=${DOWNLOAD_DOMAIN}dappster-io/"${APP_NAME_FORMAL}"/releases/download/"${VER2}"/linux-"${ARCH}"-"${APP_NAME}"-migration-tool-"${VER2}".tar.gz
+        MIGRATION_TOOL_URL=${DOWNLOAD_DOMAIN}dappsteros-io/"${APP_NAME_FORMAL}"/releases/download/"${VER2}"/linux-"${ARCH}"-"${APP_NAME}"-migration-tool-"${VER2}".tar.gz
         __info "Dowloading ${MIGRATION_TOOL_URL}..."
         curl -sL -O "${MIGRATION_TOOL_URL}"
     done

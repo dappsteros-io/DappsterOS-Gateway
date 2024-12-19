@@ -163,8 +163,8 @@ archives:
   - build/sysroot/etc/**/*
 checksum:
   name_template: "checksums.txt"
-snapshot:
-# name_template: "{{ incpatch .Version }}"
+snapshot: # name_template: "{{ incpatch .Version }}"
+
 changelog:
   sort: asc
   filters:
@@ -173,7 +173,7 @@ changelog:
     - "^test:"
 release:
   github:
-    owner: dappster-io
+    owner: dappsteros-io
     name: DappsterOS-Gateway
   draft: false
   prerelease: auto
