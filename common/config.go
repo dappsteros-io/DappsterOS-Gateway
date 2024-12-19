@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/constants"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/constants"
 )
 
 const (

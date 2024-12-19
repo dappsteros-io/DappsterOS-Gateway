@@ -9,11 +9,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
 	"github.com/labstack/echo/v4"
 
-	"github.com/dappster-io/DappsterOS-Common/model"
-	"github.com/dappster-io/DappsterOS-Gateway/service"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	"github.com/dappsteros-io/DappsterOS-Gateway/service"
 	"gotest.tools/v3/assert"
 )
 

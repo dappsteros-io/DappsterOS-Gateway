@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dappster-io/DappsterOS-Common/model"
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
 	"gotest.tools/assert"
 )
 

@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/dappster-io/DappsterOS-Gateway/service"
+	"github.com/dappsteros-io/DappsterOS-Gateway/service"
 	"github.com/labstack/echo/v4"
 	echo_middleware "github.com/labstack/echo/v4/middleware"
 )

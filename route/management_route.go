@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dappster-io/DappsterOS-Common/external"
-	"github.com/dappster-io/DappsterOS-Common/model"
-	"github.com/dappster-io/DappsterOS-Common/utils/common_err"
-	"github.com/dappster-io/DappsterOS-Common/utils/jwt"
-	"github.com/dappster-io/DappsterOS-Gateway/service"
+	"github.com/dappsteros-io/DappsterOS-Common/external"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/common_err"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/jwt"
+	"github.com/dappsteros-io/DappsterOS-Gateway/service"
 	"github.com/labstack/echo/v4"
 	echo_middleware "github.com/labstack/echo/v4/middleware"
 )

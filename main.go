@@ -15,15 +15,15 @@ import (
 	"time"
 
 	"github.com/coreos/go-systemd/daemon"
-	"github.com/dappster-io/DappsterOS-Common/external"
-	"github.com/dappster-io/DappsterOS-Common/model"
-	"github.com/dappster-io/DappsterOS-Common/utils/constants"
-	http2 "github.com/dappster-io/DappsterOS-Common/utils/http"
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-Common/external"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/constants"
+	http2 "github.com/dappsteros-io/DappsterOS-Common/utils/http"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
 
-	"github.com/dappster-io/DappsterOS-Gateway/common"
-	"github.com/dappster-io/DappsterOS-Gateway/route"
-	"github.com/dappster-io/DappsterOS-Gateway/service"
+	"github.com/dappsteros-io/DappsterOS-Gateway/common"
+	"github.com/dappsteros-io/DappsterOS-Gateway/route"
+	"github.com/dappsteros-io/DappsterOS-Gateway/service"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 )

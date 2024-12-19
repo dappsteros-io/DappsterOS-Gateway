@@ -3,7 +3,7 @@ package pkg
 import (
 	"errors"
 
-	"github.com/dappster-io/DappsterOS-Gateway/common"
+	"github.com/dappsteros-io/DappsterOS-Gateway/common"
 )
 
 func GetGatewayPort() (int, error) {
